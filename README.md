@@ -1,2 +1,2 @@
-# fe-course-projects
-building projects from the scrimba frontend course together (and surpass them)
+# fe-path-projects
+building projects from the scrimba frontend path together (and surpass them)

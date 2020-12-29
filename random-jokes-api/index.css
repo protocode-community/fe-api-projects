@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.text-center {
+  text-align: center;
+}
+
+body {
+  font-family: "Permanent Marker";
+  font-size: 1.5rem;
+  padding: 10px 100px 10px 10px;
+  background-color: #161719;
+  color: #9fa2a7;
+}
+
+.wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: white;
+  bottom: -6px;
+  z-index: -1;
+}
+
+.speechbubble {
+  background-color: #26272b;
+  color: #9fa2a7;
+  font-size: 0.8em;
+  line-height: 1.75;
+  padding: 15px 25px;
+  margin-bottom: 75px;
+  cursor: default;
+}
+
+.speechbubble:nth-child(2n) {
+  border-left: 5px solid;
+}
+
+.speechbubble:nth-child(2n):after {
+  content: "";
+  margin-top: -30px;
+  padding-top: 0px;
+  position: relative;
+  bottom: -45px;
+  left: 20px;
+  border-width: 30px 0 0 30px;
+  border-style: solid;
+  border-color: #26272b transparent;
+  display: block;
+  width: 0;
+}
+
+.speechbubble:nth-child(2n + 1) {
+  border-right: 5px solid;
+}
+
+.speechbubble:nth-child(2n + 1):after {
+  content: "";
+  margin-top: -30px;
+  padding-top: 0px;
+  position: relative;
+  bottom: -45px;
+  left: 350px;
+  border-width: 30px 30px 0 0;
+  border-style: solid;
+  border-color: #26272b transparent;
+  display: block;
+  width: 0;
+}
+
+.speechbubble:nth-child(4n + 1) {
+  border-color: #56b273;
+}
+
+.speechbubble:nth-child(4n + 2) {
+  border-color: #01ad9b;
+}
+
+.speechbubble:nth-child(4n + 3) {
+  border-color: #b388dd;
+}
+
+.speechbubble:nth-child(4n + 4) {
+  border-color: #ff8750;
+}
+
+.wrapper button {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 240px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.joke {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=index.css.map */

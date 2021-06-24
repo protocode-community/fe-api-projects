@@ -35,4 +35,4 @@ protocode-projects follows the Contributor Covenant Code of Conduct [![Contribut
 (you may add your name or username here)
 
 ## License
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) © protocode
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
